@@ -21,5 +21,5 @@ class Personaje:
         cargador=5 
         cargador=cargador+municiones
         
-        print("El arma tiene ahora " + cargador +"balas")
+        print("El arma tiene ahora " + str(cargador) + " balas")
     
