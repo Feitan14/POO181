@@ -4,7 +4,7 @@ from tkinter import Tk,Frame,Button,messagebox
 def mostrarMensaje():
     messagebox.showinfo("Aviso","Este mensaje es información")
     messagebox.showerror("Error:","todo fallo con exito")
-    print(messagebox.ask("pregunta:", "El o ella jugó con tu corazon"))
+    print(messagebox.askquestion("pregunta:", "El o ella jugó con tu corazon"))
     
     
 #5. funcion para agregar botones
@@ -15,8 +15,6 @@ def agregarBoton():
     botonNuevo.pack()
     
 #1. creación ventana
-
-
 #instancia
 Ventana = Tk()
 
@@ -46,7 +44,6 @@ BotonNegro.grid(row=1, column=1)
 
 BotonVerde=Button(seccion3, text="boton verde",bg="green",fg="white", command=agregarBoton)
 BotonVerde.pack()
-
 
 #Main ejecución de la ventana 
 Ventana.mainloop()

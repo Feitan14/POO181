@@ -45,6 +45,7 @@ Heroe.correr(True)
 Heroe.lanzarGranada()
 Heroe.recargarArma(cargaH)
 
+
 #no se puede hacer.
 
 #Heroe.__pensar()
